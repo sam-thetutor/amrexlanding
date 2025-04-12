@@ -35,7 +35,11 @@ export default function Navbar() {
             {/* <Button variant="outline" className="mr-3">
               Log in
             </Button> */}
-            <Button className="bg-emerald-600 hover:bg-emerald-700">Get Started</Button>
+            <Button
+            onClick={() => {
+              document.getElementById('how-it-works')?.scrollIntoView({ behavior: 'smooth' });
+            }}
+             className="bg-emerald-600 hover:bg-emerald-700">Get Started</Button>
           </div>
 
           <div className="flex items-center md:hidden">
