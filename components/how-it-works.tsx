@@ -57,7 +57,7 @@ export default function HowItWorks() {
                       </li>
                       <li className="flex items-start">
                         <CheckCircle className="flex-shrink-0 h-5 w-5 text-emerald-500" />
-                        <span className="ml-2 text-gray-600">Works on smartphones and basic feature phones</span>
+                        <span className="ml-2 text-gray-600">Works on basic feature phones</span>
                       </li>
                       <li className="flex items-start">
                         <CheckCircle className="flex-shrink-0 h-5 w-5 text-emerald-500" />
